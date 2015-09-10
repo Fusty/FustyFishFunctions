@@ -1,5 +1,5 @@
 function shish
-	if count $argv > 0
+	if count $argv
 		set countArgs (count $argv)
 		set otherArgs (echo "")
 

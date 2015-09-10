@@ -1,5 +1,5 @@
 function delfunc
-    if count $argv > 0
+    if count $argv > /dev/null 
 	if not [ $argv = "delfunc" ]
 		set -l filename (echo $argv | sed -e 's/\.fish$//g')
         	rm ~/.config/fish/functions/$filename.fish
